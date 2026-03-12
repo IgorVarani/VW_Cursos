@@ -1,0 +1,6 @@
+@VW_Cursos_HostAddress = http://localhost:5253
+
+GET {{VW_Cursos_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
