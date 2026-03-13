@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VW_Cursos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8a02b6bd82903e5607641bf724ff7f1f633161b")]
 [assembly: System.Reflection.AssemblyProductAttribute("VW_Cursos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VW_Cursos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

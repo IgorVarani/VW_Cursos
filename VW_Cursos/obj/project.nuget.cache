@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kv9AcetVDSE=",
+  "dgSpecHash": "dn02rDAbxVg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\43698404818\\Desktop\\VH Burguer\\VW_Cursos\\VW_Cursos\\VW_Cursos.csproj",
+  "projectFilePath": "C:\\Users\\43698404818\\Desktop\\VW_Cursos\\VW_Cursos\\VW_Cursos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\43698404818\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\43698404818\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -56,9 +56,9 @@ namespace VW_Cursos.Controllers
         {
             try
             {
-                LerAlunoDto alunoAtualizado = _service.Atualizar(id, alunoDto);
+                LerAlunoDto alunoCriado = _service.Adicionar(alunoDto);
 
-                return StatusCode(200, alunoAtualizado);
+                return StatusCode(201, alunoCriado);
             }
             catch (DomainException ex)
             {

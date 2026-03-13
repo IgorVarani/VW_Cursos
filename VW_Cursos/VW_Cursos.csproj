@@ -25,12 +25,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Applications\Conversoes\" />
-    <Folder Include="Applications\Regras\" />
-    <Folder Include="DTOs\CursoDto\" />
-    <Folder Include="DTOs\InstrutorDto\" />
-    <Folder Include="DTOs\MatriculaDto\" />
-  </ItemGroup>
-
 </Project>
