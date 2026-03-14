@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\43698404818\\Desktop\\VW_Cursos\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\facil\\Desktop\\VW_Cursos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|c:\\users\\facil\\desktop\\vw_cursos\\vw_cursos\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|solutionrelative:vw_cursos\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MatriculaController.cs",
+              "DocumentMoniker": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Controllers\\MatriculaController.cs",
+              "RelativeDocumentMoniker": "VW_Cursos\\Controllers\\MatriculaController.cs",
+              "ToolTip": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Controllers\\MatriculaController.cs",
+              "RelativeToolTip": "VW_Cursos\\Controllers\\MatriculaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T21:56:59.634Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
