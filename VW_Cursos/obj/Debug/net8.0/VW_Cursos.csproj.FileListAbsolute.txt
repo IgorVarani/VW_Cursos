@@ -295,3 +295,15 @@ C:\Users\43698404818\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\refint\VW_Curs
 C:\Users\43698404818\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.pdb
 C:\Users\43698404818\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.genruntimeconfig.cache
 C:\Users\43698404818\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\ref\VW_Cursos.dll
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.csproj.AssemblyReference.cache
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.AssemblyInfoInputs.cache
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.AssemblyInfo.cs
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.csproj.CoreCompileInputs.cache
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.sourcelink.json
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.dll
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\refint\VW_Cursos.dll
+C:\Users\facil\Desktop\VW_Cursos\VW_Cursos\obj\Debug\net8.0\VW_Cursos.pdb

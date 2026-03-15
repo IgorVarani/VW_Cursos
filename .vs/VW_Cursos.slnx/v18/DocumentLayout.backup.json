@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\facil\\Desktop\\VW_Cursos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|c:\\users\\facil\\desktop\\vw_cursos\\vw_cursos\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|solutionrelative:vw_cursos\\controllers\\matriculacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|c:\\users\\facil\\desktop\\vw_cursos\\vw_cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|solutionrelative:vw_cursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|c:\\users\\facil\\desktop\\vw_cursos\\vw_cursos\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14EA51A-2508-0664-A55F-4537296B9D41}|VW_Cursos\\VW_Cursos.csproj|solutionrelative:vw_cursos\\applications\\services\\autenticacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MatriculaController.cs",
-              "DocumentMoniker": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Controllers\\MatriculaController.cs",
-              "RelativeDocumentMoniker": "VW_Cursos\\Controllers\\MatriculaController.cs",
-              "ToolTip": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Controllers\\MatriculaController.cs",
-              "RelativeToolTip": "VW_Cursos\\Controllers\\MatriculaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutenticacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeDocumentMoniker": "VW_Cursos\\Applications\\Services\\AutenticacaoService.cs",
+              "ToolTip": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Applications\\Services\\AutenticacaoService.cs",
+              "RelativeToolTip": "VW_Cursos\\Applications\\Services\\AutenticacaoService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T21:56:59.634Z",
+              "WhenOpened": "2026-03-14T23:53:24.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Program.cs",
+              "RelativeDocumentMoniker": "VW_Cursos\\Program.cs",
+              "ToolTip": "C:\\Users\\facil\\Desktop\\VW_Cursos\\VW_Cursos\\Program.cs",
+              "RelativeToolTip": "VW_Cursos\\Program.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAYwGEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T23:52:55.823Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,6 @@
 ﻿using VW_Cursos.Applications.Conversoes;
 using VW_Cursos.Domains;
+using VW_Cursos.DTOs.CursoDto;
 using VW_Cursos.DTOs.MatriculaDto;
 using VW_Cursos.Exceptions;
 using VW_Cursos.Interfaces;
@@ -43,12 +44,50 @@ namespace VW_Cursos.Applications.Services
 
             if (matricula == null)
             {
-                throw new DomainException("Matricula não existe.");
+                throw new DomainException("Matrícula não existe.");
             }
 
             return LerDto(matricula);
         }
 
-        // Não terminado...
+        public LerMatriculaDto Adicionar(CriarMatriculaDto matriculaDto, int alunoId, int cursoId)
+        {
+            Matricula matricula = new Matricula
+            {
+                StatusMatricula = true,
+                AlunoId = alunoId,
+                CursoId = cursoId
+            };
+
+            _repository.Adicionar(matricula, matriculaDto.AlunoIds, matriculaDto.CursoIds);
+
+            return LerDto(matricula);
+        }
+
+        public LerMatriculaDto Atualizar(int id, CriarMatriculaDto matriculaDto, int alunoId, int cursoId)
+        {
+            Matricula matricula = _repository.ObterPorId(id);
+
+            if (matricula == null)
+            {
+                throw new DomainException("Matrícula não encontrada.");
+            }
+
+            _repository.Atualizar(matricula, matriculaDto.AlunoIds, matriculaDto.CursoIds);
+
+            return LerDto(matricula);
+        }
+
+        public void Remover(int id)
+        {
+            Matricula matricula = _repository.ObterPorId(id);
+
+            if (matricula == null)
+            {
+                throw new DomainException("Matrícula não encontrada.");
+            }
+
+            _repository.Remover(id);
+        }
     }
 }

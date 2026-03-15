@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using VHBurguer.Applications.Services;
+using VW_Cursos.Applications.Autenticacao;
 using VW_Cursos.Applications.Services;
 using VW_Cursos.Contexts;
 using VW_Cursos.Interfaces;
@@ -61,11 +63,42 @@ builder.Services.AddScoped<InstrutorService>();
 builder.Services.AddScoped<IMatriculaRepository, MatriculaRepository>();
 builder.Services.AddScoped<MatriculaService>();
 
-// JWT não terminado...
+// JWT
+builder.Services.AddScoped<GeradorTokenJwt>();
+builder.Services.AddScoped<AutenticacaoService>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+
+    .AddJwtBearer(options =>
+    {
+        var chave = builder.Configuration["Jwt:Key"]!;
+
+        var issuer = builder.Configuration["Jwt:Issuer"]!;
+
+        var audience = builder.Configuration["Jwt:Audience"]!;
+
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+
+            ValidateAudience = true,
+
+            ValidateLifetime = true,
+
+            ValidateIssuerSigningKey = true,
+
+            ValidIssuer = issuer,
+
+            ValidAudience = audience,
+
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(chave)
+            )
+        };
+    });
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
